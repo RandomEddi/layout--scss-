@@ -282,6 +282,11 @@ body {
        column-gap: 16px;
   row-gap: 17px;
 }
+@media (max-width: 1300px) {
+  .main .section__content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .main .item {
   cursor: pointer;
   border: 1px solid rgba(0, 0, 0, 0.16);

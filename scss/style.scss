@@ -310,6 +310,9 @@ $container: 1280px;
       grid-template-columns: 1fr 1fr 1fr;
       column-gap: 16px;
       row-gap: 17px;
+      @media (max-width: 1300px) {
+        grid-template-columns: 1fr 1fr;
+      }
     }
   }
 
