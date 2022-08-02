@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 * {
@@ -17,13 +18,13 @@ $container: 1280px;
 }
 
 .btn-purchase {
-  background: $black!important;
-  color: $white!important;
+  background: $black !important;
+  color: $white !important;
 }
 
 .btn-other {
-  background: $white!important;
-  color: $black!important;
+  background: $white !important;
+  color: $black !important;
 }
 
 .navbar {
@@ -156,8 +157,6 @@ $container: 1280px;
       font-size: 18px;
       line-height: 24px;
     }
-
-    
   }
 
   &__estimation {
@@ -234,7 +233,9 @@ $container: 1280px;
     background: $black;
     display: flex;
     text-align: center;
+    overflow: hidden;
     margin-bottom: 99px;
+
     &__img {
       img {
         height: 100%;
@@ -341,7 +342,7 @@ $container: 1280px;
   .sign-up {
     text-align: center;
     margin-top: 100px;
-    background: #FF7143;
+    background: #ff7143;
     padding: 60px 60px 60px 107px;
     display: flex;
     justify-content: space-between;
@@ -376,7 +377,7 @@ $container: 1280px;
         color: $black;
       }
     }
-    
+
     &__estimation {
       display: flex;
       flex-direction: column;
@@ -448,7 +449,7 @@ $container: 1280px;
           font-weight: 400;
           font-size: 16px;
           line-height: 24px;
-          color: #AAAAAA;
+          color: #aaaaaa;
         }
 
         &__checkbox {
@@ -513,12 +514,14 @@ $container: 1280px;
     align-items: center;
   }
 
-  &__upper {padding-top: 64px;}
+  &__upper {
+    padding-top: 64px;
+  }
 
   &__middle {
     margin-top: 64px;
     padding-bottom: 27px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.16);;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
   }
 
   &__lower {
@@ -583,7 +586,7 @@ $container: 1280px;
       color: $orange;
     }
   }
-  
+
   &__contact {
     color: $white;
     text-decoration: none;
